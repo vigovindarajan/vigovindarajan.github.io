@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vijay Govindarajan - Research & Technical Portfolio</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .section {
+            margin: 60px 0;
+        }
+        .section h2 {
+            color: var(--primary-color);
+            border-bottom: 3px solid var(--secondary-color);
+            padding-bottom: 10px;
+        }
+        .research-area {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .publication {
+            background: white;
+            padding: 20px;
+            border-left: 4px solid var(--secondary-color);
+            margin: 20px 0;
+        }
+        .nav {
+            background: var(--primary-color);
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        .nav li {
+            display: inline;
+            margin: 0 15px;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 4px solid white;
+            margin-bottom: 20px;
+        }
+        .experience {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .experience-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#experience">Experience</a></li>
+        </ul>
+    </div>
+
+    <div class="header">
+        <img src="/api/placeholder/200/200" alt="Vijay Govindarajan" class="profile-img">
+        <h1>Vijay Govindarajan</h1>
+        <p>Cloud Security & Distributed Systems Researcher</p>
+        <p>Program Manager III at Expedia Group</p>
+    </div>
+
+    <div class="container">
+        <div class="section" id="about">
+            <h2>About Me</h2>
+            <p>I explore cloud security and distributed systems architectures, focusing on secure multi-tenant environments. My research spans intrusion detection, privacy-preserving federated learning, and compliance automation. I'm particularly interested in system performance optimization and novel architectures for enhanced security in cloud computing platforms.</p>
+        </div>
+
+        <div class="section" id="research">
+            <h2>Research Areas</h2>
+            <div class="research-area">
+                <h3>Cloud Security & Privacy</h3>
+                <ul>
+                    <li>Machine learning for intrusion detection</li>
+                    <li>Graph-based threat detection</li>
+                    <li>Privacy-preserving architectures</li>
+                </ul>
+            </div>
+            <div class="research-area">
+                <h3>Federated Learning & Healthcare</h3>
+                <ul>
+                    <li>Decentralized analysis systems</li>
+                    <li>Blockchain integration</li>
+                    <li>Edge computing optimization</li>
+                </ul>
+            </div>
+            <div class="research-area">
+                <h3>AI for Legal Tech</h3>
+                <ul>
+                    <li>Regulatory enforcement automation</li>
+                    <li>Contract analysis systems</li>
+                    <li>Data privacy frameworks</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section" id="publications">
+            <h2>Selected Publications</h2>
+            <div class="publication">
+                <h3>RAW: Novel Reconfigurable Architecture Design Using Wireless for Future Generation Supercomputers (2013)</h3>
+                <p>Published in Computer Networks & Communications (NetCom)</p>
+            </div>
+            <div class="publication">
+                <h3>MACREE: Modern Approach for Classification and Recognition of Earthquakes and Explosions (2013)</h3>
+                <p>Published in Advances in Computing and Information Technology</p>
+            </div>
+        </div>
+
+        <div class="section" id="experience">
+            <h2>Professional Experience</h2>
+            <div class="experience">
+                <div class="experience-card">
+                    <h3>Expedia Group</h3>
+                    <p>Program Manager III</p>
+                    <p>Oct 2022 - Present</p>
+                    <p>Leading complex Software Engineering projects in Distribution and Supply Technology's Pricing Organization.</p>
+                </div>
+                <div class="experience-card">
+                    <h3>Microsoft</h3>
+                    <p>Technical Program Manager (Consultant)</p>
+                    <p>Aug 2016 - Oct 2022</p>
+                    <p>Led strategic technical initiatives for Microsoft Online Store.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
